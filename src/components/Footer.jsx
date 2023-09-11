@@ -182,7 +182,7 @@ function Footer() {
       </div>
       <div className="footer-gh">
         <a
-          href="https://github.com/renchester"
+          href="https://github.com/annihilator544"
           target="_blank"
           className="footer-gh__link"
           rel="noopener noreferrer"
@@ -193,10 +193,10 @@ function Footer() {
             width="18"
             className="footer-gh__img"
           />
-          <p className="footer-gh__desc">Developed by Renchester Ramos</p>
+          <p className="footer-gh__desc">Developed by Aditya Sharma</p>
         </a>
         <small className="footer-gh__copyright">
-          &copy; Copyright {new Date().getFullYear()} Renchester Ramos. All
+          &copy; Copyright {new Date().getFullYear()} Aditya Sharma. All
           rights reserved.{' '}
         </small>
       </div>
