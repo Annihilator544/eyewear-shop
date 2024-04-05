@@ -17,7 +17,7 @@ function HomePage() {
     <div className="screen-home">
       <Hero />
       <FeaturedCollection />
-      <FeaturedProducts />
+      {/* <FeaturedProducts /> */}
       <ScrollToTop />
     </div>
   );

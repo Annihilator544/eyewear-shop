@@ -1,3 +1,4 @@
+import { TypeAnimation } from 'react-type-animation';
 import { Link } from 'react-router-dom';
 import ProgressiveImage from 'react-progressive-graceful-image';
 
@@ -59,8 +60,31 @@ function FeaturedCollection() {
     //     </Link>
     //   </div>
     // </section>
+    <div>
+
     <div className='h-screen bg-black flex flex-col justify-center items-center text-gray-400 text-6xl font-extralight font-sans'>
 Black, White & Elegant
+    </div>
+        <div className='h-screen bg-newCollection flex flex-col justify-center items-center text-3xl font-light  bg-cover bg-fixed text-white font-sans '>
+        <TypeAnimation
+  sequence={[
+    // Same substring at the start will only be typed once, initially
+    'Our clothes are comfortable',
+    1000,
+    'Our clothes are elegant',
+    1000,
+    'Our clothes are unisex',
+    1000,
+    'Our clothes are aspirational',
+    1000,
+  ]}
+  speed={50}
+  style={{ fontSize: '2em' }}
+  repeat={Infinity}
+/>
+
+
+        </div>
     </div>
   );
 }
