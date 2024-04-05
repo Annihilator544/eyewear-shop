@@ -35,9 +35,9 @@ function AboutPage() {
           has something to suit every taste and personality.
         </p>
         <p className="story-header__text">
-          Our frames are crafted with attention to detail, utilizing the latest
+          Our clothes are crafted with attention to detail, utilizing the latest
           materials and technology to ensure the highest quality products.
-          Elevate your Clothes game with Grayscale frames.
+          Elevate your Clothes game with Grayscale clothes.
         </p>
       </section>
 
@@ -47,7 +47,7 @@ function AboutPage() {
             {(src, loading) => (
               <img
                 src={src}
-                alt="Guy in office wearing glasses and a denim jacket"
+                alt="Guy in office wearing clothes and a denim jacket"
                 className={`story-main__img ${loading && 'img--loading'}`}
                 loading="lazy"
               />
@@ -58,17 +58,17 @@ function AboutPage() {
           <h2 className="story-main__title">About us</h2>
           <p className="story-main__text">
             Grayscale was born of a simple mission - to create high-quality,
-            stylish glasses that would empower people to express themselves with
+            stylish clothes that would empower people to express themselves with
             confidence.
           </p>
           <p className="story-main__text">
             Founded by a group of passionate designers and Clothes enthusiasts,
-            we started our journey with a commitment to crafting frames that
+            we started our journey with a commitment to crafting clothes that
             would stand the test of time, both in terms of durability and style.
           </p>
           <p className="story-main__text">
             Today, we continue to build on that legacy by designing unique and
-            trendsetting glasses that reflect the spirit and creativity of our
+            trendsetting clothes that reflect the spirit and creativity of our
             brand. Join us as we continue to redefine Clothes fashion and bring
             our vision to life.
           </p>
@@ -76,26 +76,26 @@ function AboutPage() {
             Browse Products
           </Link>
         </div>
-        <div className="story-main__panel panel-3 eyeglasses">
+        <div className="story-main__panel panel-3 eyeclothes">
           <h2 className="story-main__title">Clothes For Everyone</h2>
           <p className="story-main__text">
             At Grayscale, we believe that everyone should have access to stylish
-            and affordable glasses. That&apos;s why we strive to create frames
+            and affordable clothes. That&apos;s why we strive to create clothes
             that are not only trendy and fashionable, but also accessible for
             everyone.
           </p>
           <p className="story-main__text">
-            From classic to contemporary, our frames are designed to suit every
+            From classic to contemporary, our clothes are designed to suit every
             taste and style, making it easy for our customers to find the
-            perfect pair of glasses.
+            perfect pair of clothes.
           </p>
           <p className="story-main__text">
             Our commitment to accessibility is at the heart of everything we do,
             and we take pride in helping people around the world to see better
             and look their best.
           </p>
-          <Link to="/products/eyeglasses" className="story-main__btn-link">
-            Browse Frames
+          <Link to="/products/eyeclothes" className="story-main__btn-link">
+            Browse clothes
           </Link>
         </div>
         <ImageWrapper className="story-main__panel panel-4">
@@ -103,7 +103,7 @@ function AboutPage() {
             {(src, loading) => (
               <img
                 src={src}
-                alt="Woman wearing round eyeglasses and a beige cape"
+                alt="Woman wearing round eyeclothes and a beige cape"
                 className={`story-main__img ${loading && 'img--loading'}`}
                 loading="lazy"
               />
@@ -115,14 +115,14 @@ function AboutPage() {
             {(src, loading) => (
               <img
                 src={src}
-                alt="Guy wearing vintage round sunglasses and a printed shirt"
+                alt="Guy wearing vintage round sunclothes and a printed shirt"
                 className={`story-main__img ${loading && 'img--loading'}`}
                 loading="lazy"
               />
             )}
           </ProgressiveImage>
         </ImageWrapper>
-        <div className="story-main__panel panel-6 sunglasses">
+        <div className="story-main__panel panel-6 sunclothes">
           <h2 className="story-main__title">Responsible Shade</h2>
           <p className="story-main__text">
             We are committed to making a positive impact on the world around us.
@@ -137,10 +137,10 @@ function AboutPage() {
           </p>
           <p className="story-main__text">
             When you choose our brand, you are not just getting a pair of
-            stylish and functional glasses - you are also joining us in our
+            stylish and functional clothes - you are also joining us in our
             commitment to making a positive impact on the world.
           </p>
-          <Link to="/products/sunglasses" className="story-main__btn-link">
+          <Link to="/products/sunclothes" className="story-main__btn-link">
             Browse Sunnies
           </Link>
         </div>
@@ -172,7 +172,7 @@ function AboutPage() {
             {(src, loading) => (
               <img
                 src={src}
-                alt="Guy wearing vintage round sunglasses and a printed shirt"
+                alt="Guy wearing vintage round sunclothes and a printed shirt"
                 className={`story-eyecare__img ${loading && 'img--loading'}`}
                 loading="lazy"
               />

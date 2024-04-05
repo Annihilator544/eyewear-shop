@@ -68,7 +68,7 @@ function CartRow(props) {
         <div className="cart-item__main">
           <Link
             to={`/products/${
-              product.type === 'sunnies' ? 'sunglasses' : 'eyeglasses'
+              product.type === 'sunnies' ? 'sunclothes' : 'eyeclothes'
             }/${product.id}`}
           >
             <img

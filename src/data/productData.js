@@ -1,4 +1,4 @@
-import framesData from './json/framesProductData.json';
+import clothesData from './json/clothesProductData.json';
 import sunniesData from './json/sunniesProductData.json';
 
 function getSubfolder(type, isCompressed) {
@@ -8,8 +8,8 @@ function getSubfolder(type, isCompressed) {
     subfolder = isCompressed ? 'sunniesImages-compressed' : 'sunniesImages';
   }
 
-  if (type === 'frames') {
-    subfolder = isCompressed ? 'framesImages-compressed' : 'framesImages';
+  if (type === 'clothes') {
+    subfolder = isCompressed ? 'clothesImages-compressed' : 'clothesImages';
   }
 
   return subfolder;
@@ -44,12 +44,12 @@ function mapImage(item) {
   };
 }
 
-export const eyeglassesData = framesData.map((item) =>
+export const eyeclothesData = clothesData.map((item) =>
   Object.freeze(mapImage(item)),
 );
 
-export const sunglassesData = sunniesData.map((item) =>
+export const sunclothesData = sunniesData.map((item) =>
   Object.freeze(mapImage(item)),
 );
 
-export const allProductsData = [...eyeglassesData, ...sunglassesData];
+export const allProductsData = [...eyeclothesData, ...sunclothesData];

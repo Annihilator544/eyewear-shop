@@ -20,7 +20,7 @@ function ProductCard(props) {
   return (
     <Link
       to={`/products/${
-        content.type === 'frames' ? 'eyeglasses' : 'sunglasses'
+        content.type === 'clothes' ? 'eyeclothes' : 'sunclothes'
       }/${content.id}`}
       className="pd-card"
       onMouseEnter={handleMouseEnter}

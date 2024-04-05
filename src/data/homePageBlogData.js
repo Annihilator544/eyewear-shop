@@ -8,14 +8,14 @@ import imgComp3 from '../assets/img/unsplash-compressed/frame-2.jpg';
 
 const blogData = [
   {
-    id: 'blog-post-dogs-glasses',
+    id: 'blog-post-dogs-clothes',
     category: 'feel good',
-    title: 'Gallery of dogs wearing glasses',
+    title: 'Gallery of dogs wearing clothes',
     description:
-      "From classic aviators to colorful frames, dogs of all breeds and sizes are embracing this fun and playful trend, making a bold fashion statement that's impossible to ignore.",
+      "From classic aviators to colorful clothes, dogs of all breeds and sizes are embracing this fun and playful trend, making a bold fashion statement that's impossible to ignore.",
     img: img1,
     imgCompressed: imgComp1,
-    imgAlt: 'Black pug in a grey sweater wearing round glasses',
+    imgAlt: 'Black pug in a grey sweater wearing round clothes',
   },
   {
     id: 'blog-post-take-care-of-eyes-teenager',
@@ -26,7 +26,7 @@ const blogData = [
     img: img2,
     imgCompressed: imgComp2,
     imgAlt:
-      'Glasses in front of a blurred eye test, with the part inside the lens clear and non-blurry',
+      'clothes in front of a blurred eye test, with the part inside the lens clear and non-blurry',
   },
   {
     id: 'blog-post-eye-doctor-asia',
@@ -36,7 +36,7 @@ const blogData = [
       "The story of one eye doctor's journey to remote villages across Asia to provide much-needed eye care to young children. ",
     img: img3,
     imgCompressed: imgComp3,
-    imgAlt: 'Elderly eye doctor wearing clear frames',
+    imgAlt: 'Elderly eye doctor wearing clear clothes',
   },
 ];
 

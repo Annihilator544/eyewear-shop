@@ -15,9 +15,9 @@ function FeaturedCollection() {
         <div className="featured-coll__text-wrapper">
           <h4 className="featured-coll__title">Amora</h4>
           <p className="featured-coll__details">
-            Crafted with care, each pair of Amora glasses is a unique statement
+            Crafted with care, each pair of Amora clothes is a unique statement
             piece that combines contemporary design with classic elegance. The
-            collection features a range of frames in various colors and styles,
+            collection features a range of clothes in various colors and styles,
             all made from high-quality materials that are built to last.
           </p>
           <Link to="/products" className="featured-coll__link">

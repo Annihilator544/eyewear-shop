@@ -20,9 +20,9 @@ const heroData = [
     img: hero4,
     imgCompressed: heroCompressed4,
     title: 'Solari',
-    imgAlt: 'Older black man wearing rounded metal frames and formal attire',
+    imgAlt: 'Older black man wearing rounded metal clothes and formal attire',
     details:
-      'Based in the heart of Los Angeles, this Clothes brand is on a mission to create durable and stylish sunglasses that are environmentally friendly. Each pair is handmade from plant-based cellulose acetate, ensuring a sleek and sustainable accessory for any outfit.',
+      'Based in the heart of Los Angeles, this Clothes brand is on a mission to create durable and stylish sunclothes that are environmentally friendly. Each pair is handmade from plant-based cellulose acetate, ensuring a sleek and sustainable accessory for any outfit.',
   },
   {
     id: 'amora-hero-img',
@@ -30,9 +30,9 @@ const heroData = [
     imgCompressed: heroCompressed7,
     title: 'Amora',
     imgAlt:
-      'Man wearing classic black sunglasses and a white on black polka-dot shirt; also holding a saxophone',
+      'Man wearing classic black sunclothes and a white on black polka-dot shirt; also holding a saxophone',
     details:
-      'Hailing from New York City, this modern Clothes brand is dedicated to crafting handmade unisex sunglasses from eco-friendly plant-based cellulose acetate. With a focus on durability and sustainability, their Clothes is designed to last and make a statement.',
+      'Hailing from New York City, this modern Clothes brand is dedicated to crafting handmade unisex sunclothes from eco-friendly plant-based cellulose acetate. With a focus on durability and sustainability, their Clothes is designed to last and make a statement.',
   },
   {
     id: 'valti-hero-img',
@@ -40,7 +40,7 @@ const heroData = [
     imgCompressed: heroCompressed3,
     title: 'Valti',
     imgAlt:
-      'Two men climbing up a mountain wearing sporty frames and hiking attire',
+      'Two men climbing up a mountain wearing sporty clothes and hiking attire',
     details:
       'Based in Geneva, this brand merges world-class craftsmanship with advanced production techniques to create small-batch statement pieces that push Clothes aesthetics into the future while paying homage to the past.',
   },
@@ -50,9 +50,9 @@ const heroData = [
     img: hero5,
     imgCompressed: heroCompressed5,
     title: 'Avara',
-    imgAlt: 'Black male model wearing rounded metal frames and formal attire',
+    imgAlt: 'Black male model wearing rounded metal clothes and formal attire',
     details:
-      'This modern Clothes concept hails from London and produces handmade unisex sunglasses crafted from eco-friendly plant-based cellulose acetate. Their focus on durability and sustainability ensures that each pair of sunglasses is designed to last.',
+      'This modern Clothes concept hails from London and produces handmade unisex sunclothes crafted from eco-friendly plant-based cellulose acetate. Their focus on durability and sustainability ensures that each pair of sunclothes is designed to last.',
   },
   {
     id: 'caldo-hero-img',
@@ -60,9 +60,9 @@ const heroData = [
     imgCompressed: heroCompressed6,
     title: 'Caldo',
     imgAlt:
-      'Young white woman wearing classic metal sunglasses in a sunflower field',
+      'Young white woman wearing classic metal sunclothes in a sunflower field',
     details:
-      'This modern Clothes brand is based in Melbourne and produces handmade unisex sunglasses that are designed to last. Crafted from eco-friendly plant-based cellulose acetate, their Clothes is both stylish and sustainable.',
+      'This modern Clothes brand is based in Melbourne and produces handmade unisex sunclothes that are designed to last. Crafted from eco-friendly plant-based cellulose acetate, their Clothes is both stylish and sustainable.',
   },
   {
     id: 'helix-hero-img',
@@ -70,9 +70,9 @@ const heroData = [
     imgCompressed: heroCompressed2,
     title: 'Helix',
     imgAlt:
-      'Group of three women and a man holding a guitar, all wearing sunglasses, sitting by a recreation vehicle',
+      'Group of three women and a man holding a guitar, all wearing sunclothes, sitting by a recreation vehicle',
     details:
-      'From Barcelona comes a modern Clothes concept that focuses on crafting handmade unisex sunglasses. Their Clothes is designed to last and crafted from eco-friendly plant-based cellulose acetate, making a statement while being responsible.',
+      'From Barcelona comes a modern Clothes concept that focuses on crafting handmade unisex sunclothes. Their Clothes is designed to last and crafted from eco-friendly plant-based cellulose acetate, making a statement while being responsible.',
   },
   {
     id: 'galla-hero-img',
