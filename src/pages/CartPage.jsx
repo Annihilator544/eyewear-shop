@@ -13,7 +13,7 @@ function CartPage() {
   const [cart] = useContext(CartContext);
 
   useEffect(() => {
-    document.title = 'Your Shopping Cart | SAVANT Eyewear Store';
+    document.title = 'Your Shopping Cart | Grayscale Clothes Store';
   }, []);
 
   const checkOutProducts = (e) => {

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 function NavBar() {
   return (
     <motion.nav
-      className="nav"
+      className="nav bg-white"
       initial={{ y: -10 }}
       animate={{ y: 0 }}
       transition={{ type: 'tween' }}

@@ -18,9 +18,9 @@ const blogData = [
     imgAlt: 'Depiction of the store display of frames',
   },
   {
-    id: 'blog-post-meet-our-savant-family',
+    id: 'blog-post-meet-our-Grayscale-family',
     category: 'community',
-    title: 'Meet our Savant Family',
+    title: 'Meet our Grayscale Family',
     description:
       'At our brand, we place a great emphasis on the value of community and family. From our dedicated team members to our loyal customers, we see everyone as a part of the larger family that makes our brand what it is today.',
     img: img2,
@@ -29,8 +29,8 @@ const blogData = [
       'Black man holding his child in his arms and kissing him on his cheeks',
   },
   {
-    id: 'blog-post-savant-moments-eye-spy',
-    category: '#SAVANTmoments',
+    id: 'blog-post-Grayscale-moments-eye-spy',
+    category: '#Grayscalemoments',
     title: 'Eye Spy',
     description:
       'Our brand has been spotted on some of the biggest names in Hollywood! From red carpet events to casual outings, these stars have been rocking our frames and proving that our designs are truly timeless.',

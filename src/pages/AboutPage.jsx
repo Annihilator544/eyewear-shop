@@ -21,13 +21,13 @@ import eyecareImgComp from '../assets/img/unsplash-compressed/store-7.jpg';
 
 function AboutPage() {
   useEffect(() => {
-    document.title = 'The SAVANT Experience | SAVANT Eyewear Online Store';
+    document.title = 'The Grayscale Experience | Grayscale Clothes Online Store';
   }, []);
 
   return (
     <main className="story">
       <section className="story-header">
-        <h1 className="story-header__title">An Eye for Better Eyewear</h1>
+        <h1 className="story-header__title">An Eye for Better Clothes</h1>
         <p className="story-header__text">
           Our designs are carefully crafted to capture the latest fashion trends
           while ensuring maximum comfort and functionality. With a range of
@@ -37,7 +37,7 @@ function AboutPage() {
         <p className="story-header__text">
           Our frames are crafted with attention to detail, utilizing the latest
           materials and technology to ensure the highest quality products.
-          Elevate your eyewear game with SAVANT frames.
+          Elevate your Clothes game with Grayscale frames.
         </p>
       </section>
 
@@ -57,19 +57,19 @@ function AboutPage() {
         <div className="story-main__panel panel-2 about-us">
           <h2 className="story-main__title">About us</h2>
           <p className="story-main__text">
-            SAVANT was born of a simple mission - to create high-quality,
+            Grayscale was born of a simple mission - to create high-quality,
             stylish glasses that would empower people to express themselves with
             confidence.
           </p>
           <p className="story-main__text">
-            Founded by a group of passionate designers and eyewear enthusiasts,
+            Founded by a group of passionate designers and Clothes enthusiasts,
             we started our journey with a commitment to crafting frames that
             would stand the test of time, both in terms of durability and style.
           </p>
           <p className="story-main__text">
             Today, we continue to build on that legacy by designing unique and
             trendsetting glasses that reflect the spirit and creativity of our
-            brand. Join us as we continue to redefine eyewear fashion and bring
+            brand. Join us as we continue to redefine Clothes fashion and bring
             our vision to life.
           </p>
           <Link to="/products/" className="story-main__btn-link">
@@ -77,9 +77,9 @@ function AboutPage() {
           </Link>
         </div>
         <div className="story-main__panel panel-3 eyeglasses">
-          <h2 className="story-main__title">Eyewear For Everyone</h2>
+          <h2 className="story-main__title">Clothes For Everyone</h2>
           <p className="story-main__text">
-            At SAVANT, we believe that everyone should have access to stylish
+            At Grayscale, we believe that everyone should have access to stylish
             and affordable glasses. That&apos;s why we strive to create frames
             that are not only trendy and fashionable, but also accessible for
             everyone.

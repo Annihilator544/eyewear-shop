@@ -42,7 +42,7 @@ function ProductPage() {
     'We do not have enough stocks for your current order. Contact us directly to get more information';
 
   useEffect(() => {
-    document.title = `${product.title.toUpperCase()} | SAVANT Eyewear Online Store`;
+    document.title = `${product.title.toUpperCase()} | Grayscale Clothes Online Store`;
   }, [product.title]);
 
   useEffect(() => {
@@ -274,7 +274,7 @@ function ProductPage() {
             <span className="pd-lens__count">2</span>
             <p className="pd-lens__instruction">
               Schedule an appointment through our website or contact us through
-              our telephone number. A SAVANT Eyewear representative will reach
+              our telephone number. A Grayscale Clothes representative will reach
               out to confirm your appointment.
             </p>
           </li>

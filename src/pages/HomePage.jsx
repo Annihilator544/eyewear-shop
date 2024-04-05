@@ -10,7 +10,7 @@ import blogData from '../data/homePageBlogData';
 
 function HomePage() {
   useEffect(() => {
-    document.title = 'SAVANT Eyewear Online Store';
+    document.title = 'Grayscale Clothes Online Store';
   }, []);
 
   return (

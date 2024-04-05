@@ -9,7 +9,7 @@ import imgCompressedEyeglasses from '../assets/img/unsplash-compressed/frame-7.j
 import { allProductsData, sunglassesData, eyeglassesData } from './productData';
 
 export const allProductsCategoryData = {
-  documentTitle: 'COLLECTION | Shop all products - SAVANT Eyewear Store',
+  documentTitle: 'COLLECTION | Shop all products - Grayscale Clothes Store',
   banner: {
     title: 'All Products',
     description:
@@ -22,11 +22,11 @@ export const allProductsCategoryData = {
 };
 
 export const eyeglassesCategoryData = {
-  documentTitle: 'OPTICAL | Trendy Frames & Styles - SAVANT Eyewear Store',
+  documentTitle: 'OPTICAL | Trendy Frames & Styles - Grayscale Clothes Store',
   banner: {
     title: 'Optical Shop',
     description:
-      'Introducing our latest line of eyeglass frames, designed to elevate your everyday look with style and sophistication. From classic and timeless designs to bold and daring styles, these frames have something for every taste and preference. Explore the collection and find the perfect frames to reflect your personal style and elevate your eyewear game.',
+      'Introducing our latest line of eyeglass frames, designed to elevate your everyday look with style and sophistication. From classic and timeless designs to bold and daring styles, these frames have something for every taste and preference. Explore the collection and find the perfect frames to reflect your personal style and elevate your Clothes game.',
     img: imgEyeglasses,
     imgCompressed: imgCompressedEyeglasses,
     imgAlt: 'Male model wearing glasses',
@@ -35,7 +35,7 @@ export const eyeglassesCategoryData = {
 };
 
 export const sunglassesCategoryData = {
-  documentTitle: 'SUNGLASSES | Trendy Frames & Styles - SAVANT Eyewear Store',
+  documentTitle: 'SUNGLASSES | Trendy Frames & Styles - Grayscale Clothes Store',
   banner: {
     title: 'Sunnies Store',
     description:

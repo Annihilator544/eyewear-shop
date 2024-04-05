@@ -9,7 +9,7 @@ import dogPictureCompressed from '../assets/img/unsplash-compressed/frame-11.jpg
 
 function UnderConstruction() {
   useEffect(() => {
-    document.title = '404 Not Found - SAVANT Eyewear Online Store';
+    document.title = '404 Not Found - Grayscale Clothes Online Store';
   }, []);
 
   return (

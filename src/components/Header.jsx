@@ -37,7 +37,7 @@ function Header() {
 
         <Link to="/" className="header__logo">
           <ImageWrapper className="header__logo-img-wrapper">
-            <img src={logo} alt="Savant logo" className="header__logo-img" />
+            <img src={logo} alt="Grayscale logo" className="header__logo-img" />
           </ImageWrapper>
         </Link>
         <div className="header__icons-wrapper">

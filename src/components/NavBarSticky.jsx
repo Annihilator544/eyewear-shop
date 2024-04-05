@@ -40,7 +40,7 @@ function NavBarSticky(props) {
 
   return (
     <motion.nav
-      className="nav nav--sticky"
+      className="nav nav--sticky flex justify-between px-5"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ type: 'tween' }}
@@ -54,8 +54,8 @@ function NavBarSticky(props) {
         menu
       </button>
 
-      <Link to="/" className="nav__logo">
-        <img src={logo} alt="Savant logo" className="nav__logo-img" />
+      <Link to="/" className="nav__logo no-underline">
+        Grayscale | Clothing
       </Link>
       <ul className="nav__links">
         <NavLink
@@ -88,7 +88,7 @@ function NavBarSticky(props) {
           About us
         </NavLink>
       </ul>
-      <div className="nav__icons-wrapper">
+      <div className=" flex gap-4">
         <button
           type="button"
           className="nav__btn-icon icon__search material-symbols-outlined"

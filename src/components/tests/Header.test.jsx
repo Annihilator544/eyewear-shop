@@ -18,7 +18,7 @@ describe('The <Header> component', () => {
 
     const logos = screen.getAllByRole('img');
 
-    expect(logos[0].getAttribute('alt')).toMatch(/savant logo/i);
+    expect(logos[0].getAttribute('alt')).toMatch(/Grayscale logo/i);
   });
 
   it('displays the search panel on click', async () => {
