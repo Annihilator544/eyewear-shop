@@ -52,10 +52,10 @@ function Hero() {
     //   ))}
     // </Flickity>
 
-    <div className ="bg-hero-pattern h-screen bg-cover flex flex-col justify-center items-center text-white bg-blend-overlay bg-fixed backdrop-grayscale text-7xl">
+    <div className ="bg-hero-pattern h-screen bg-cover flex flex-col justify-center items-center text-white bg-blend-overlay bg-fixed backdrop-grayscale text-7xl bg-top">
       <div className='backdrop-grayscale w-full flex flex-col justify-center items-center h-full '>
 
-      Greyscale
+      Grayscale
       </div>
     </div>
   );
