@@ -162,7 +162,7 @@ function Footer() {
           </section>
         </div>
         <ul className="footer-bottom">
-          <span className="footer-bottom__link">&copy; 2023 Grayscale</span>
+          <span className="footer-bottom__link">&copy; 2024 Grayscale</span>
           <Link to="/" className="footer-bottom__link">
             Privacy
           </Link>

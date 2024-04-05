@@ -17,40 +17,6 @@ const flickityOptions = {
 
 function Hero() {
   return (
-    // <Flickity options={flickityOptions} className="hero" elementType="section">
-    //   {heroData.map((item, index) => (
-    //     <div className="hero-item" key={`${item.id}--hero-item`}>
-    //       {/* <ProgressiveImage
-    //         delay={10000}
-    //         src={item.img}
-    //         placeholder={item.imgCompressed}
-    //       >
-    //         {(src, loading) => (
-    //           <img
-    //             src={src}
-    //             alt={item.imgAlt}
-    //             className={`hero-item__img img-${index + 1} ${
-    //               loading && 'img--loading'
-    //             }`}
-    //           />
-    //         )}
-    //       </ProgressiveImage> */}
-
-    //       <div>
-    //         Grayscale
-    //       </div>
-    //       {/* <div className="hero-item__dynamic-content">
-    //         <div className="hero-item__text-wrapper">
-    //           <h3 className="hero-item__title">{item.title}</h3>
-    //           <p className="hero-item__details">{item.details}</p>
-    //         </div>
-    //         <Link to="/products" className="hero-item__link">
-    //           Shop Now
-    //         </Link>
-    //       </div> */}
-    //     </div>
-    //   ))}
-    // </Flickity>
 
     <div className ="bg-hero-pattern h-screen bg-cover flex flex-col justify-center items-center text-white bg-blend-overlay bg-fixed backdrop-grayscale text-7xl bg-top">
       <div className='backdrop-grayscale w-full flex flex-col justify-center items-center h-full '>

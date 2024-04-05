@@ -5,7 +5,7 @@ function ProductSidebar() {
     <nav className="sb-nav">
       <ul className="sb-nav__links">
         <li className="sb-nav__link--wrapper">
-          <NavLink to="/products" end className="sb-nav__link">
+          <NavLink to="/products" end className={`sb-nav__link `}>
             All Products
           </NavLink>
         </li>
