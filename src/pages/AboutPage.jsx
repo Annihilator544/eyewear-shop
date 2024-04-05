@@ -25,7 +25,7 @@ function AboutPage() {
   }, []);
 
   return (
-    <main className="story">
+    <main className="story py-0">
       <section className="story-header">
         <h1 className="story-header__title">An Eye for Better Clothes</h1>
         <p className="story-header__text">
@@ -48,7 +48,7 @@ function AboutPage() {
               <img
                 src={src}
                 alt="Guy in office wearing clothes and a denim jacket"
-                className={`story-main__img ${loading && 'img--loading'}`}
+                className={`story-main__img ${loading && 'img--loading'} grayscale`}
                 loading="lazy"
               />
             )}
@@ -104,7 +104,7 @@ function AboutPage() {
               <img
                 src={src}
                 alt="Woman wearing round black and a beige cape"
-                className={`story-main__img ${loading && 'img--loading'}`}
+                className={`story-main__img ${loading && 'img--loading'} grayscale`}
                 loading="lazy"
               />
             )}
@@ -115,15 +115,15 @@ function AboutPage() {
             {(src, loading) => (
               <img
                 src={src}
-                alt="Guy wearing vintage round white and a printed shirt"
-                className={`story-main__img ${loading && 'img--loading'}`}
+                alt="Guy wearing vintage round sunclothes and a printed shirt"
+                className={`story-main__img ${loading && 'img--loading'} grayscale`}
                 loading="lazy"
               />
             )}
           </ProgressiveImage>
         </ImageWrapper>
-        <div className="story-main__panel panel-6 white">
-          <h2 className="story-main__title">Responsible Shade</h2>
+        <div className="story-main__panel panel-6 sunclothes">
+          <h2 className="story-main__title">Responsible Fiber</h2>
           <p className="story-main__text">
             We are committed to making a positive impact on the world around us.
             We believe that as a business, we have a responsibility to give back
@@ -140,16 +140,16 @@ function AboutPage() {
             stylish and functional clothes - you are also joining us in our
             commitment to making a positive impact on the world.
           </p>
-          <Link to="/products/white" className="story-main__btn-link">
+          <Link to="/products/sunclothes" className="story-main__btn-link">
             Browse Sunnies
           </Link>
         </div>
       </section>
 
-      <section className="story-eyecare">
+      <section className="story-eyecare bg-black grayscale">
         <div className="story-eyecare__info">
           <h3 className="story-eyecare__title">
-            Our commitment to proper eyecare
+            Our commitment to proper Clothes
           </h3>
           <p className="story-eyecare__text">
             We believe that everyone deserves access to high-quality eyecare,
@@ -172,19 +172,14 @@ function AboutPage() {
             {(src, loading) => (
               <img
                 src={src}
-                alt="Guy wearing vintage round white and a printed shirt"
-                className={`story-eyecare__img ${loading && 'img--loading'}`}
+                alt="Guy wearing vintage round sunclothes and a printed shirt"
+                className={`story-eyecare__img ${loading && 'img--loading'} grayscale`}
                 loading="lazy"
               />
             )}
           </ProgressiveImage>
         </ImageWrapper>
       </section>
-
-      <BlogContent
-        content={blogData}
-        headerTitle="A community built on neighborhood values"
-      />
 
       <section className="story-visit">Visit us</section>
       <ScrollToTop />
