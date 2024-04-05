@@ -119,7 +119,6 @@ function ProductPage() {
   };
 
   return (
-    <>
       <main className="pd-pg">
         <section className="pd-pg__img--container">
           <nav className="pd-pg__nav">
@@ -157,7 +156,7 @@ function ProductPage() {
             <div className="pd-pg__img-thumbs">
               <button
                 className={`pd-pg__img-thumbnail--wrapper ${
-                  activeImg === 1 ? 'active' : ''
+                  activeImg === 1 ? ' border-2 border-black' : ''
                 }`}
                 type="button"
                 onClick={() => setActiveImg(1)}
@@ -170,7 +169,7 @@ function ProductPage() {
               </button>
               <button
                 className={`pd-pg__img-thumbnail--wrapper ${
-                  activeImg === 2 ? 'active' : ''
+                  activeImg === 2 ? 'border-2 border-black' : ''
                 }`}
                 type="button"
                 onClick={() => setActiveImg(2)}
@@ -230,7 +229,7 @@ function ProductPage() {
                   />
                 </label>
                 <button
-                  className="pd-pg__btn-cart pd-pg__btn-add-cart"
+                  className="pd-pg__btn-cart pd-pg__btn-add-cart bg-black border-black text-white hover:bg-white hover:text-black"
                   type="submit"
                 >
                   Add to Cart
@@ -243,7 +242,7 @@ function ProductPage() {
                   >
                     <Link
                       to="/cart"
-                      className="pd-pg__btn-cart pd-pg__btn-checkout"
+                      className="pd-pg__btn-cart pd-pg__btn-checkout  bg-black border-black text-white hover:bg-white hover:text-black"
                     >
                       Buy it now
                     </Link>
@@ -261,37 +260,6 @@ function ProductPage() {
           </div>
         </section>
       </main>
-      <section className="pd-lens">
-        <h2 className="pd-lens__title">Purchase Prescription Lenses</h2>
-        <ul className="pd-lens__steps">
-          <li className="pd-lens__step">
-            <span className="pd-lens__count">1</span>
-            <p className="pd-lens__instruction">
-              Purchase the frame (Optical or white) you wish to have a
-              prescription. Skip this step if you wish to add a prescription to
-              a frame you already have.
-            </p>
-          </li>
-          <li className="pd-lens__step">
-            <span className="pd-lens__count">2</span>
-            <p className="pd-lens__instruction">
-              Schedule an appointment through our website or contact us through
-              our telephone number. A Grayscale Clothes representative will reach
-              out to confirm your appointment.
-            </p>
-          </li>
-          <li className="pd-lens__step">
-            <span className="pd-lens__count">3</span>
-            <p className="pd-lens__instruction">
-              Attend your scheduled appointment and have your order for
-              prescription lenses finalized. Once finalized, your frame will be
-              delivered to your address.
-            </p>
-          </li>
-        </ul>
-        <ScrollToTop />
-      </section>
-    </>
   );
 }
 export default ProductPage;

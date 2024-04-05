@@ -44,7 +44,6 @@ function ProductGalleryLayout() {
                 id="product-sort"
                 className="products-sorter__selection"
                 defaultValue="recommended"
-                onChange={handleProductSort}
               >
                 <option value="recommended">Recommended</option>
                 <option value="alphabetical-ascending">

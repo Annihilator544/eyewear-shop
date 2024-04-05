@@ -84,16 +84,10 @@ function CartPage() {
                     {formatPrice(getTotalPrice(cart))}
                   </span>
                 </div>
-                <div className="cart__total-price--disclaimer">
-                  Shipping and taxes computed at checkout
-                </div>
               </div>
               <button type="submit" className="cart__btn-submit">
                 CHECKOUT
               </button>
-              <Link to="/products" className="cart__shop-link">
-                Keep Shopping
-              </Link>
             </div>
           </form>
         </>
