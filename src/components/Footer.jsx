@@ -193,7 +193,7 @@ function Footer() {
             width="18"
             className="footer-gh__img"
           />
-          <p className="footer-gh__desc">Developed by Sharma and Chandan (Vibes by Palekar <3)</p>
+          <p className="footer-gh__desc">{"Developed by Sharma and Chandan (Vibes by Palekar <3)"}</p>
         </a>
         <small className="footer-gh__copyright">
           &copy; Copyright {new Date().getFullYear()} Aditya Sharma. All
