@@ -24,7 +24,7 @@ function RouteSwitch() {
   return (
     <BrowserRouter>
       <CartProvider>
-        {/* <Header /> */}
+        <Header />
         <Routes>
           <Route index path="/" element={<HomePage />} />
           <Route path="/cart" element={<CartPage />} />
