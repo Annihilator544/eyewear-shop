@@ -184,7 +184,7 @@ function ProductPage() {
           </div>
         </section>
         <section className="pd-pg__details--container">
-          <h1 className="pd-pg__title">{product.title}</h1>
+          <h1 className="pd-pg__title text-black">{product.title}</h1>
           <div className="pd-pg__price--wrapper">
             <h3 className="pd-pg__price">{product.price}</h3>
             {product.onSale && (
