@@ -8,6 +8,8 @@ import ImageWrapper from '../components/ImageWrapper';
 import ScrollToTop from '../components/ScrollToTop';
 
 import { allProductsData } from '../data/productData';
+import clothesData from '../data/json/framesProductData.json'
+
 
 const emptyProduct = {
   id: '',

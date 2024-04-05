@@ -15,8 +15,11 @@
     "type": "sunnies",
     "color": "Red/Gold",
     "quantity": 19,
-    "onSale": false
-  },
+    "onSale": false,
+    "image1url": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F98%2F52%2F9852763d352463e996a4e5f9c0ac85e592bc42aa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+    "image2url": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F98%2F52%2F9852763d352463e996a4e5f9c0ac85e592bc42aa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+  }
+,
   {
     "id": "BqUZdqXH6BsF",
     "brand": "Mr Leight",
@@ -50,58 +53,6 @@
     "type": "sunnies",
     "color": "",
     "quantity": 4,
-    "onSale": true
-  },
-  {
-    "id": "VktzCbKeq9le",
-    "brand": "Parasite",
-    "title": "Parasite Aerial",
-    "price": "₱8,175.00",
-    "originalPrice": "₱16,350.00",
-    "description": "Parasite has revolutionized the Clothes industry with its introduction of the active “Stereo” System in 2002. Since then, the brand, still independent, has positioned itself as a leader of design and innovation. ",
-    "technicalDetails": [
-      "Eye 56mm Bridge 11mm Temple 140mm",
-      "Metal Frame ",
-      "100% UV protection",
-      "Made in France"
-    ],
-    "type": "sunnies",
-    "color": "Black",
-    "quantity": 2,
-    "onSale": true
-  },
-  {
-    "id": "qW7eUZInKNDE",
-    "brand": "Dior",
-    "title": "DR10917229",
-    "price": "₱17,728.00",
-    "originalPrice": "₱22,160.00",
-    "description": "Whether you want to appear sophisticated, fun-loving, youthful, conservative or style-conscious, the right Clothes can help you shape how you are perceived. And if you choose to wear only one pair of clothes for everything you do, that says something about you, too!",
-    "technicalDetails": [
-      "Eye 59mm, Bridge 16mm, Temple 145mm",
-      "Composite lens",
-      "Made in Japan"
-    ],
-    "type": "sunnies",
-    "color": "Rose Gold",
-    "quantity": 6,
-    "onSale": true
-  },
-  {
-    "id": "maRuwivySOLD",
-    "brand": "Dior",
-    "title": "DR10910829",
-    "price": "₱18,200.00",
-    "originalPrice": "₱22,750.00",
-    "description": "Whether you want to appear sophisticated, fun-loving, youthful, conservative or style-conscious, the right Clothes can help you shape how you are perceived. And if you choose to wear only one pair of clothes for everything you do, that says something about you, too!",
-    "technicalDetails": [
-      "Eye 48mm, Bridge 22mm, Temple 140mm",
-      "UV Protected with a backside Anti-Reflective Coating",
-      "Made in Japan"
-    ],
-    "type": "sunnies",
-    "color": "Silver",
-    "quantity": 8,
     "onSale": true
   }
 ]

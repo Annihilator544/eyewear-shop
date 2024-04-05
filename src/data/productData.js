@@ -53,3 +53,5 @@ export const whiteData = sunniesData.map((item) =>
 );
 
 export const allProductsData = [...blackData, ...whiteData];
+
+
