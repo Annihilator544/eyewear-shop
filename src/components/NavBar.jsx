@@ -18,18 +18,18 @@ function NavBar() {
           Collection
         </NavLink>
         <NavLink
-          to="/products/eyeclothes"
+          to="/products/black"
           className="nav__link
           "
         >
-          Eyeclothes
+          black
         </NavLink>
         <NavLink
-          to="/products/sunclothes"
+          to="/products/white"
           className="nav__link
           "
         >
-          Sunclothes
+          white
         </NavLink>
 
         <NavLink

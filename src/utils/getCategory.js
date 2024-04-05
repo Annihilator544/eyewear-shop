@@ -1,8 +1,8 @@
 const getCategory = (string) => {
   let type;
 
-  if (string === 'sunnies') type = 'sunclothes';
-  if (string === 'clothes') type = 'eyeclothes';
+  if (string === 'sunnies') type = 'white';
+  if (string === 'clothes') type = 'black';
 
   return type;
 };

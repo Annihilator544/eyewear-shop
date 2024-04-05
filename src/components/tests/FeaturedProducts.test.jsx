@@ -18,7 +18,7 @@ describe('The <FeaturedProducts> component', () => {
         <Routes>
           <Route path="/" element={<FeaturedProducts />} />
           <Route
-            path="products/eyeclothes/:productId"
+            path="products/black/:productId"
             element={<SampleProductPage />}
           />
         </Routes>

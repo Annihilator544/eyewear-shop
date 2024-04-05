@@ -35,21 +35,21 @@ function RouteSwitch() {
               element={<ProductGallery categoryType="allProducts" />}
             />
             <Route
-              path="/products/eyeclothes"
-              element={<ProductGallery categoryType="eyeclothes" />}
+              path="/products/black"
+              element={<ProductGallery categoryType="black" />}
             />
             <Route
-              path="/products/sunclothes"
-              element={<ProductGallery categoryType="sunclothes" />}
+              path="/products/white"
+              element={<ProductGallery categoryType="white" />}
             />
           </Route>
           <Route element={<ProductPageLayout />}>
             <Route
-              path="/products/eyeclothes/:productId"
+              path="/products/black/:productId"
               element={<ProductPage />}
             />
             <Route
-              path="/products/sunclothes/:productId"
+              path="/products/white/:productId"
               element={<ProductPage />}
             />
           </Route>

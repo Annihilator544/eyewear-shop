@@ -44,12 +44,12 @@ function mapImage(item) {
   };
 }
 
-export const eyeclothesData = clothesData.map((item) =>
+export const blackData = clothesData.map((item) =>
   Object.freeze(mapImage(item)),
 );
 
-export const sunclothesData = sunniesData.map((item) =>
+export const whiteData = sunniesData.map((item) =>
   Object.freeze(mapImage(item)),
 );
 
-export const allProductsData = [...eyeclothesData, ...sunclothesData];
+export const allProductsData = [...blackData, ...whiteData];

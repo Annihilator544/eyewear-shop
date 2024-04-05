@@ -12,7 +12,7 @@ const blogData = [
     category: 'locations',
     title: "We're coming to Singapore",
     description:
-      "We are opening a new location in Singapore! Our unique collection of clothes and sunclothes is coming to the heart of the city, and we can't wait for you to come and explore our latest designs.",
+      "We are opening a new location in Singapore! Our unique collection of clothes and white is coming to the heart of the city, and we can't wait for you to come and explore our latest designs.",
     img: img1,
     imgCompressed: imgComp1,
     imgAlt: 'Depiction of the store display of clothes',
@@ -37,7 +37,7 @@ const blogData = [
     img: img3,
     imgCompressed: imgComp3,
     imgAlt:
-      'Happy woman wearing sunclothes--holding her hands up with peace signs',
+      'Happy woman wearing white--holding her hands up with peace signs',
   },
 ];
 

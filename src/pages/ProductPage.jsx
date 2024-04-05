@@ -126,12 +126,12 @@ function ProductPage() {
             </Link>{' '}
             /
             {product.type === 'sunnies' ? (
-              <Link to="/products/sunclothes" className="pd-pg__nav-link">
-                Sunclothes
+              <Link to="/products/white" className="pd-pg__nav-link">
+                white
               </Link>
             ) : (
-              <Link to="/products/eyeclothes" className="pd-pg__nav-link">
-                Eyeclothes
+              <Link to="/products/black" className="pd-pg__nav-link">
+                black
               </Link>
             )}{' '}
             /<span className="pd-pg__nav-link">{product.brand}</span>
@@ -265,7 +265,7 @@ function ProductPage() {
           <li className="pd-lens__step">
             <span className="pd-lens__count">1</span>
             <p className="pd-lens__instruction">
-              Purchase the frame (Optical or Sunclothes) you wish to have a
+              Purchase the frame (Optical or white) you wish to have a
               prescription. Skip this step if you wish to add a prescription to
               a frame you already have.
             </p>

@@ -76,7 +76,7 @@ function AboutPage() {
             Browse Products
           </Link>
         </div>
-        <div className="story-main__panel panel-3 eyeclothes">
+        <div className="story-main__panel panel-3 black">
           <h2 className="story-main__title">Clothes For Everyone</h2>
           <p className="story-main__text">
             At Grayscale, we believe that everyone should have access to stylish
@@ -94,7 +94,7 @@ function AboutPage() {
             and we take pride in helping people around the world to see better
             and look their best.
           </p>
-          <Link to="/products/eyeclothes" className="story-main__btn-link">
+          <Link to="/products/black" className="story-main__btn-link">
             Browse clothes
           </Link>
         </div>
@@ -103,7 +103,7 @@ function AboutPage() {
             {(src, loading) => (
               <img
                 src={src}
-                alt="Woman wearing round eyeclothes and a beige cape"
+                alt="Woman wearing round black and a beige cape"
                 className={`story-main__img ${loading && 'img--loading'}`}
                 loading="lazy"
               />
@@ -115,14 +115,14 @@ function AboutPage() {
             {(src, loading) => (
               <img
                 src={src}
-                alt="Guy wearing vintage round sunclothes and a printed shirt"
+                alt="Guy wearing vintage round white and a printed shirt"
                 className={`story-main__img ${loading && 'img--loading'}`}
                 loading="lazy"
               />
             )}
           </ProgressiveImage>
         </ImageWrapper>
-        <div className="story-main__panel panel-6 sunclothes">
+        <div className="story-main__panel panel-6 white">
           <h2 className="story-main__title">Responsible Shade</h2>
           <p className="story-main__text">
             We are committed to making a positive impact on the world around us.
@@ -140,7 +140,7 @@ function AboutPage() {
             stylish and functional clothes - you are also joining us in our
             commitment to making a positive impact on the world.
           </p>
-          <Link to="/products/sunclothes" className="story-main__btn-link">
+          <Link to="/products/white" className="story-main__btn-link">
             Browse Sunnies
           </Link>
         </div>
@@ -172,7 +172,7 @@ function AboutPage() {
             {(src, loading) => (
               <img
                 src={src}
-                alt="Guy wearing vintage round sunclothes and a printed shirt"
+                alt="Guy wearing vintage round white and a printed shirt"
                 className={`story-eyecare__img ${loading && 'img--loading'}`}
                 loading="lazy"
               />

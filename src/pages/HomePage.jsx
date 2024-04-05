@@ -17,7 +17,6 @@ function HomePage() {
     <div className="screen-home">
       <Hero />
       <FeaturedCollection />
-      <BlogContent content={blogData} headerTitle="Latest Posts" />
       <FeaturedProducts />
       <ScrollToTop />
     </div>

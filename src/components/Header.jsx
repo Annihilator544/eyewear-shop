@@ -71,7 +71,7 @@ function Header() {
           </Link>
         </div>
       </div> */}
-      <div className=' bg-black'>
+      <div className=' bg-black h-[13vh]'>
         heh
       </div>
         <NavBarSticky toggleSearchView={toggleSearchView} />

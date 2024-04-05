@@ -51,14 +51,14 @@ function UnderConstruction() {
           SHOP ALL
         </Link>
         <Link
-          to="/products/eyeclothes"
+          to="/products/black"
           className="tbd__btn
         "
         >
           SHOP OPTICAL
         </Link>
         <Link
-          to="/products/sunclothes"
+          to="/products/white"
           className="tbd__btn
         "
         >

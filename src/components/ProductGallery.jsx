@@ -8,8 +8,8 @@ import ProductCard from './ProductCard';
 
 import {
   allProductsCategoryData,
-  sunclothesCategoryData,
-  eyeclothesCategoryData,
+  whiteCategoryData,
+  blackCategoryData,
 } from '../data/productCategoryData';
 import sortProducts from '../utils/sortProducts';
 
@@ -32,12 +32,12 @@ function ProductGallery({ categoryType }) {
         setCategoryData(allProductsCategoryData);
         break;
       }
-      case 'sunclothes': {
-        setCategoryData(sunclothesCategoryData);
+      case 'white': {
+        setCategoryData(whiteCategoryData);
         break;
       }
-      case 'eyeclothes': {
-        setCategoryData(eyeclothesCategoryData);
+      case 'black': {
+        setCategoryData(blackCategoryData);
         break;
       }
       default:
