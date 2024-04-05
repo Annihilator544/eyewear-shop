@@ -29,15 +29,15 @@ function Header() {
   };
 
   return (
-    <header className="header">
-      <div className="header__main" ref={ref}>
+    <header className="header bg-black">
+      {/* <div className="header__main" ref={ref}>
         <div className="header__main--extra-message">
           Free shipping on orders above 10000
         </div>
 
-        <Link to="/" className="header__logo">
+        <Link to="/" className="header__logo bg-black">
           <ImageWrapper className="header__logo-img-wrapper">
-            <img src={logo} alt="Grayscale logo" className="header__logo-img" />
+            GrayScale
           </ImageWrapper>
         </Link>
         <div className="header__icons-wrapper">
@@ -70,13 +70,11 @@ function Header() {
             )}
           </Link>
         </div>
+      </div> */}
+      <div className=' bg-black h-[12vh]'>
+        heh
       </div>
-
-      {inView ? (
-        <NavBar />
-      ) : (
         <NavBarSticky toggleSearchView={toggleSearchView} />
-      )}
 
       <AnimatePresence>
         {searchInView && (
