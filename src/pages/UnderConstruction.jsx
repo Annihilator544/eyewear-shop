@@ -22,7 +22,7 @@ function UnderConstruction() {
             {(src, loading) => (
               <img
                 src={src}
-                alt="A golden retriever wearing glasses"
+                alt="A golden retriever wearing clothes"
                 className={`tbd__img ${loading && 'img--loading'}`}
               />
             )}
@@ -32,7 +32,7 @@ function UnderConstruction() {
       <h3 className="tbd__subtitle">This is awkward...</h3>
       <p className="tbd__text">
         This page either doesn&apos;t exist or is under construction. Sorry
-        about that, here&apos;s a picture of a dog with glasses instead.
+        about that, here&apos;s a picture of a dog with clothes instead.
       </p>
       <p className="tbd__text">Try the links below!</p>
       <div className="tbd__btn-container">
@@ -51,14 +51,14 @@ function UnderConstruction() {
           SHOP ALL
         </Link>
         <Link
-          to="/products/eyeglasses"
+          to="/products/eyeclothes"
           className="tbd__btn
         "
         >
           SHOP OPTICAL
         </Link>
         <Link
-          to="/products/sunglasses"
+          to="/products/sunclothes"
           className="tbd__btn
         "
         >

@@ -10,13 +10,13 @@ function ProductSidebar() {
           </NavLink>
         </li>
         <li className="sb-nav__link--wrapper">
-          <NavLink to="/products/eyeglasses" className="sb-nav__link">
-            Eyeglasses
+          <NavLink to="/products/eyeclothes" className="sb-nav__link">
+            Eyeclothes
           </NavLink>
         </li>
         <li className="sb-nav__link--wrapper">
-          <NavLink to="/products/sunglasses" className="sb-nav__link">
-            Sunglasses
+          <NavLink to="/products/sunclothes" className="sb-nav__link">
+            Sunclothes
           </NavLink>
         </li>
       </ul>

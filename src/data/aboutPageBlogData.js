@@ -12,10 +12,10 @@ const blogData = [
     category: 'locations',
     title: "We're coming to Singapore",
     description:
-      "We are opening a new location in Singapore! Our unique collection of glasses and sunglasses is coming to the heart of the city, and we can't wait for you to come and explore our latest designs.",
+      "We are opening a new location in Singapore! Our unique collection of clothes and sunclothes is coming to the heart of the city, and we can't wait for you to come and explore our latest designs.",
     img: img1,
     imgCompressed: imgComp1,
-    imgAlt: 'Depiction of the store display of frames',
+    imgAlt: 'Depiction of the store display of clothes',
   },
   {
     id: 'blog-post-meet-our-Grayscale-family',
@@ -33,11 +33,11 @@ const blogData = [
     category: '#Grayscalemoments',
     title: 'Eye Spy',
     description:
-      'Our brand has been spotted on some of the biggest names in Hollywood! From red carpet events to casual outings, these stars have been rocking our frames and proving that our designs are truly timeless.',
+      'Our brand has been spotted on some of the biggest names in Hollywood! From red carpet events to casual outings, these stars have been rocking our clothes and proving that our designs are truly timeless.',
     img: img3,
     imgCompressed: imgComp3,
     imgAlt:
-      'Happy woman wearing sunglasses--holding her hands up with peace signs',
+      'Happy woman wearing sunclothes--holding her hands up with peace signs',
   },
 ];
 

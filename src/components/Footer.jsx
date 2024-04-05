@@ -17,25 +17,25 @@ function Footer() {
           </span>
           <form
             action=""
-            className="nletter__form"
+            className="nletter__form text-white"
             onSubmit={(e) => e.preventDefault()}
           >
             <input
               type="email"
               name="email"
               id="nletter__email"
-              className="nletter__email"
+              className=" bg-black border-2 border-white px-4  text-white"
               placeholder="Enter your email here"
               minLength={1}
             />
-            <button type="submit" className="nletter__submit">
+            <button type="submit" className="nletter__submit bg-white border-none">
               SUBSCRIBE
             </button>
           </form>
         </div>
       </section>
 
-      <div className="footer-main">
+      <div className="footer-main bg-black text-gray-500">
         <div className="footer-sv">
           <section className="footer-sv__links--container">
             <ul className="footer-sv__links">

@@ -55,7 +55,7 @@ function NavBarSticky(props) {
       </button>
 
       <Link to="/" className="nav__logo no-underline">
-        Grayscale | Clothing
+        Grayscale 
       </Link>
       <ul className="nav__links">
         <NavLink
@@ -66,18 +66,18 @@ function NavBarSticky(props) {
           Collection
         </NavLink>
         <NavLink
-          to="/products/eyeglasses"
+          to="/products/eyeclothes"
           className="nav__link
           "
         >
-          Eyeglasses
+          Eyeclothes
         </NavLink>
         <NavLink
-          to="/products/sunglasses"
+          to="/products/sunclothes"
           className="nav__link
           "
         >
-          Sunglasses
+          Sunclothes
         </NavLink>
 
         <NavLink
@@ -130,18 +130,18 @@ function NavBarSticky(props) {
                 Collection
               </NavLink>
               <NavLink
-                to="/products/eyeglasses"
+                to="/products/eyeclothes"
                 className="nav-menu__link
             "
               >
-                Eyeglasses
+                Eyeclothes
               </NavLink>
               <NavLink
-                to="/products/sunglasses"
+                to="/products/sunclothes"
                 className="nav-menu__link
             "
               >
-                Sunglasses
+                Sunclothes
               </NavLink>
 
               <NavLink
